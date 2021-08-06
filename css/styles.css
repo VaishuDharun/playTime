@@ -5,6 +5,7 @@
 }
 
 .dice {
+  margin-top: 350px;
   text-align: center;
   display: inline-block;
 
@@ -13,7 +14,9 @@
 body {
 
   background-image: url('../images/im.jpg');
-  width: 100%;
+ height: 100%;
+ background-size: cover;
+ background-repeat: no-repeat;
 
   /* display: flex; */
   /* background: linear-gradient(-70deg, #81B214 30%,#B6C867 30%); */
@@ -45,7 +48,7 @@ p {
 }
 
 img {
-  margin-top: 350px;
+  /* margin-top: 350px; */
   height: 500px;
   width:500px;
   margin: 20px 20px;
