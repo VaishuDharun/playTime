@@ -13,6 +13,7 @@
 body {
 
   background-image: url('../images/im.jpg');
+  background-repeat: no-repeat;
   /* display: flex; */
   /* background: linear-gradient(-70deg, #81B214 30%,#B6C867 30%); */
   /* background: linear-gradient(-90deg, #39A6A3 30%, #ffcd3b 30%);
@@ -43,9 +44,9 @@ p {
 }
 
 img {
-
-  height: 150px;
-  width:150px;
+  margin-top: 350px;
+  height: 500px;
+  width:500px;
   margin: 20px 20px;
   border-radius: 15px;
 
