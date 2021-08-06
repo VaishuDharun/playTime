@@ -1,0 +1,118 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+
+  background-image: url('../images/im.jpg');
+  /* display: flex; */
+  /* background: linear-gradient(-70deg, #81B214 30%,#B6C867 30%); */
+  /* background: linear-gradient(-90deg, #39A6A3 30%, #ffcd3b 30%);
+  background-repeat: no-repeat; */
+  /* background:linear-gradient(-70deg, #fa7c30 30%, #000000 30%); */
+  text-align: center;
+}
+.bg{
+  background: linear-gradient(-90deg, #39A6A3 50%, #ffcd3b 50%);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 black;
+  float: left;
+  font-size: 3rem;
+  color: #eee;
+
+}
+
+p {
+  font-size: 2rem;
+  color: #1768ac;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+}
+
+img {
+
+  height: 150px;
+  width:150px;
+  margin: 20px 20px;
+  border-radius: 15px;
+
+
+}
+
+a{
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  /* margin-top:5% ; */
+  color: #39A6A3;
+
+}
+a:hover{
+  color: #1768AC;
+}
+.btn{
+
+  background-color: black;
+  color: #eee;
+  border-radius: 15px;
+  box-shadow: none;
+  border: 2px solid;
+  padding: 5px  5px;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+
+}
+.btn:hover{
+  border-color: #39A6A3;
+  color:#39A6A3;
+  box-shadow: 0 0.5em 0.5em -0.4em #39A6A3;
+  transform: translateY(-0.25em);
+}
+footer {
+  margin-top: 5%;
+}
+
+/* button for entering into the game: */
+.buttonGo{
+
+  background-color: none;
+  color: #1768AC;
+  margin-bottom: 150px;
+  border-radius: 15px;
+  box-shadow: none;
+  border: 2px solid;
+
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.buttonGo:hover{
+
+  border-color: #39A6A3;
+  color:#39A6A3;
+  box-shadow: 0 0.5em 0.5em -0.4em #39A6A3;
+  transform: translateY(-0.25em);
+}
+
+.dicee{
+
+  margin-top: 150px;
+  margin-bottom: 100px;
+  width:350px;
+  height:350px;
+
+}
