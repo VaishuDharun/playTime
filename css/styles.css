@@ -13,7 +13,8 @@
 body {
 
   background-image: url('../images/im.jpg');
-  background-repeat: no-repeat;
+  width: 100%;
+
   /* display: flex; */
   /* background: linear-gradient(-70deg, #81B214 30%,#B6C867 30%); */
   /* background: linear-gradient(-90deg, #39A6A3 30%, #ffcd3b 30%);
@@ -73,7 +74,7 @@ a:hover{
   box-shadow: none;
   border: 2px solid;
   padding: 5px  5px;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: 'Roboto', sans-serif;
 
 }
